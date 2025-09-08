@@ -1,0 +1,42 @@
+.importanceContainer{
+    display: flex;
+    flex-direction: column;
+}
+.addTask{
+ display: flex;
+ gap: 40px;
+ justify-content: center;
+}
+#taskInput{
+    width: 40vw;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.taskLists{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.catagory{
+    justify-content: center;
+    width: 250px;
+    height: 75vh;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.task{
+    height: 100px;
+    width: 200px;
+    background-color: lightblue;
+    border: gray solid 1px;
+    border-radius: 20px;
+    text-align: center;
+}
